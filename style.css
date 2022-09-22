@@ -1,34 +1,58 @@
+#title {
+  font-family:  Cochin;
+  font-size: 70px;
+  text-align: center;
+}
+
 #black {
   background-color: black;
+  border-radius: 5px;
 }
 
 #rosa {
   background-color: rgb(220, 65, 168);
+  border-radius: 5px;
 }
 
 #amarelo {
   background-color: yellow;
+  border-radius: 5px;
 }
 
 #verde {
   background-color: rgb(28, 176, 28);
+  border-radius: 5px;
 }
 
 .color {
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 70px;
   border: 1px solid;
   display: inline-block;
 }
 
 .pixel {
   background-color: white;
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 70px;
   border: 1px solid;
   display: inline-block;
+  border-radius: 5px;
 }
 
 #pixel-board {
-  width: 240px;
+  width: 700px;
+}
+
+body {
+  background-color: rgb(218, 207, 185);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clear-board {
+  margin: 20px;
+  border-radius: 5px;
+  font-size: large;
 }
